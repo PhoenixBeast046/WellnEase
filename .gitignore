@@ -1,0 +1,55 @@
+# --------------------
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# --------------------
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Uncomment if you don't want VSCode configs in version control
+# .vscode/
+
+# --------------------
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+.packages
+.metadata
+pubspec.lock
+
+# --------------------
+# Secret Files (Important!)
+.env
+
+# --------------------
+# Android Specific
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+lib/env/env.g.dart
